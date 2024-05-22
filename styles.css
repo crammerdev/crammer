@@ -1,0 +1,75 @@
+/*Κεντρικη σελιδα*/
+
+.index-1{
+    background-color: #F8F4E1;
+
+}
+
+
+/* απλος τιτλος
+.header-1{
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    border: 1px solid  #74512D;
+    background-color: #F8F4E1;
+}*/
+.header-1{
+    background: #74512D;
+    background-image: linear-gradient(to right, #74512D 0 29%, #F8F4E1 98% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #543310;
+}
+
+
+.items {
+    width: calc(33.33% - 13px); /* or 300px */
+    margin: 5px;
+    color: white;
+    height: 67px;
+    font-size: medium;
+    background-color: #74512D;
+    cursor: pointer;
+}
+
+.items:hover {
+    background-color: #543310;
+}
+
+.search-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#search-input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-index {
+    font-style: italic;
+    font-size: 20px!important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container > * {
+         width: calc(50% - 15px);
+     }
+ }
+ @media (max-width: 480px) {
+    .container > * {
+         width: calc(100% - 15px);
+     }
+     .footer-index {
+        font-size: 12px!important; /* Reduce the font size further */
+    }
+ }
+
+ 
