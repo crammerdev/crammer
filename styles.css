@@ -1,7 +1,7 @@
 /*Κεντρικη σελιδα*/
 
 .index-1{
-    background-color: #F8F4E1;
+    background-color: #3C5B6F;
 
 }
 
@@ -14,12 +14,13 @@
     background-color: #F8F4E1;
 }*/
 .header-1{
-    background: #74512D;
-    background-image: linear-gradient(to right, #74512D 0 29%, #F8F4E1 98% 100%);
+    background: #153448;
+    /* background-image: linear-gradient(to right, #153448 0 29%, #DFD0B8 98% 100%); */
     display: flex;
     justify-content: center;
+    font-size: 20px;
     align-items: center;
-    color: #543310;
+    color: white;
 }
 
 
@@ -27,14 +28,15 @@
     width: calc(33.33% - 13px); /* or 300px */
     margin: 5px;
     color: white;
-    height: 67px;
+    height: 65px;
     font-size: medium;
-    background-color: #74512D;
+    background-color: #948979;
     cursor: pointer;
 }
 
 .items:hover {
-    background-color: #543310;
+    background-color: #DFD0B8;
+    color: black;
 }
 
 .search-container {
@@ -51,6 +53,7 @@
 .footer-index {
     font-style: italic;
     font-size: 20px!important;
+    color: white;
     bottom: 0;
     left: 0;
     width: 100%;

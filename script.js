@@ -10,6 +10,10 @@ document.getElementById('btn-dipae').addEventListener('click', function()
 
  document.getElementById('btn-ionio').addEventListener('click', function()
  {window.location.href = 'Panepistimia/IONIO/ionio.html';});
+ 
+ document.getElementById('btn-ekpa').addEventListener('click', function()
+ {window.location.href = 'Panepistimia/EKPA/ekpa.html';});
+
 
 
  /*search bar*/

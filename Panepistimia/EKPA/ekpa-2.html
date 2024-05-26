@@ -3,29 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EKPA page</title>
+    <title>EKPA-2 page</title>
 </head>
 <body class="index-ekpa">
-    <div class="header-1"><h1>Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (ΕΚΠΑ)</h1></div>
+    <div class="header-1"><h1>Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών(ΕΚΠΑ)</h1></div>
     <div class="search-container">
         <input type="text" id="search-input" placeholder="Search...">
     </div>
     <div class="container">
-        <button id="btn-" class="items ">Τμήμα Αγροτικής Ανάπτυξης, Αγροδιατροφής και Διαχείρισης Φυσικών Πόρων</button>
-        <button id="btn-" class="items ">Παιδαγωγικό Τμήμα Δημοτικής Εκπαίδευσης</button>
-        <button id="btn-" class="items ">Τμήμα Εκπαίδευσης και Αγωγής στην Προσχολική Ηλικία</button>
-        <button id="btn-" class="items ">Ιατρική Σχολή Αθηνών</button>
-        <button id="btn-" class="items ">Τμήμα Νοσηλευτικής</button>
-        <button id="btn-" class="items ">Οδοντιατρική Σχολή</button>
-        <button id="btn-" class="items ">Τμήμα Φαρμακευτικής</button>
-        <button id="btn-" class="items ">Τμήμα Επιστήμης Φυσικής Αγωγής Και Αθλητισμού</button>
-        <button id="btn-" class="items ">Τμήμα Θεολογίας</button>
-        <button id="btn-" class="items ">Τμήμα Κοινωνικής Θεολογίας και Θρησκειολογίας</button>
-        <button id="btn-" class="items ">Τμήμα Αεροδιαστημικής Επιστήμης και Τεχνολογίας</button>
-        <button id="btn-" class="items ">Τμήμα Βιολογίας</button>
-        <button id="btn-" class="items ">Τμήμα Γεωλογίας και Γεωπεριβάλλοντος</button>
-        <button id="btn-" class="items ">Τμήμα Ιστορίας και Φιλοσοφίας της Επιστήμης</button>
-        <button id="btn-" class="items ">Τμήμα Μαθηματικών</button>
+        <button id="btn-" class="items ">εδω</button>
+        <button id="btn-" class="items ">.</button>
         <button id="btn-" class="items ">.</button>
         <button id="btn-" class="items ">.</button>
         <button id="btn-" class="items ">.</button>
@@ -47,7 +34,7 @@
     </div>
     </div>
     <div class="back-button">
-        <a href="\"><button>ΠΙΣΩ</button></a>
+    <a href="\"><button>ΠΙΣΩ</button></a>
     </div>
 </body>
 
@@ -124,7 +111,7 @@
 .back-button {
     position: absolute;
     bottom: 3px;
-    left: 15px;
+    left: 16px;
 }
 
 .back-button button {
@@ -139,6 +126,8 @@
     background-color: #DFD0B8;
     color: black;
 }
+
+
 
 @media (max-width: 768px) {
     .container > * {
@@ -158,19 +147,14 @@
 
 
 
-
-
-
-
-
 <script>
 
-    //σελιδα 2 κουμπι
-    document.addEventListener("DOMContentLoaded", function() {
-    const navButton1 = document.getElementById("nav-button-2");
+// σελιδα 1 κουμπι
+document.addEventListener("DOMContentLoaded", function() {
+    const navButton2 = document.getElementById("nav-button-1");
 
-    navButton1.addEventListener("click", function() {
-        location.href = "ekpa-2.html";
+    navButton2.addEventListener("click", function() {
+        location.href = "ekpa.html";
     });
 });
 //search bar
@@ -196,11 +180,5 @@
         return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     }
 });
-
-
-
-
-
-
 </script>
 </html>
