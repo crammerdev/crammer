@@ -6,13 +6,6 @@
 }
 
 
-/* απλος τιτλος
-.header-1{
-    text-align: center;
-    font-family: 'Courier New', monospace;
-    border: 1px solid  #74512D;
-    background-color: #F8F4E1;
-}*/
 .header-1{
     background: #153448;
     /* background-image: linear-gradient(to right, #153448 0 29%, #DFD0B8 98% 100%); */
@@ -23,12 +16,16 @@
     color: white;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+ }
 
 .items {
     width: calc(33.33% - 13px); /* or 300px */
     margin: 5px;
     color: white;
-    height: 65px;
+    height: 86px;
     font-size: medium;
     background-color: #948979;
     cursor: pointer;
@@ -50,7 +47,7 @@
     box-sizing: border-box;
 }
 
-.footer-index {
+/* .footer-index {
     font-style: italic;
     font-size: 20px!important;
     color: white;
@@ -59,20 +56,18 @@
     width: 100%;
     padding: 0px;
     text-align: center;
-}
+} */
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .container > * {
-         width: calc(50% - 15px);
+         width: calc(100% - 12px);
      }
  }
- @media (max-width: 480px) {
+
+@media (min-width: 480px) and (max-width: 1024px) {
     .container > * {
-         width: calc(100% - 15px);
+         width: calc(50% - 12px);
+         height: 89px;
      }
-     .footer-index {
-        font-size: 12px!important; /* Reduce the font size further */
-    }
  }
 
- 
