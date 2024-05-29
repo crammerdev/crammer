@@ -12,27 +12,27 @@
     </div>
     
     <div class="container">
-        <button id="btn-" class="items ">Τμήμα Αγροτικής Ανάπτυξης, Αγροδιατροφής και Διαχείρισης Φυσικών Πόρων</button>
-        <button id="btn-" class="items ">Παιδαγωγικό Τμήμα Δημοτικής Εκπαίδευσης</button>
-        <button id="btn-" class="items ">Τμήμα Εκπαίδευσης και Αγωγής στην Προσχολική Ηλικία</button>
-        <button id="btn-" class="items ">Ιατρική Σχολή Αθηνών</button>
-        <button id="btn-" class="items ">Τμήμα Νοσηλευτικής</button>
-        <button id="btn-" class="items ">Οδοντιατρική Σχολή</button>
-        <button id="btn-" class="items ">Τμήμα Φαρμακευτικής</button>
-        <button id="btn-" class="items ">Τμήμα Επιστήμης Φυσικής Αγωγής Και Αθλητισμού</button>
-        <button id="btn-" class="items ">Τμήμα Θεολογίας</button>
-        <button id="btn-" class="items ">Τμήμα Κοινωνικής Θεολογίας και Θρησκειολογίας</button>
-        <button id="btn-" class="items ">Τμήμα Αεροδιαστημικής Επιστήμης και Τεχνολογίας</button>
-        <button id="btn-" class="items ">Τμήμα Βιολογίας</button>
-        <button id="btn-" class="items ">Τμήμα Γεωλογίας και Γεωπεριβάλλοντος</button>
-        <button id="btn-" class="items ">Τμήμα Ιστορίας και Φιλοσοφίας της Επιστήμης</button>
-        <button id="btn-" class="items ">Τμήμα Μαθηματικών</button>
-        <button id="btn-" class="items ">Τμήμα Πληροφορικής και Τηλεπικοινωνιών</button>
-        <button id="btn-" class="items ">Τμήμα Τεχνολογιών Ψηφιακής Βιομηχανίας</button>
-        <button id="btn-" class="items ">Τμήμα Φυσικής</button>
-        <button id="btn-" class="items ">Τμήμα Χημείας</button>
-        <button id="btn-" class="items ">Νομική Σχολή</button>
-        <button id="btn-" class="items ">Τμήμα Διαχείρισης Λιμένων και Ναυτιλίας</button>
+        <button id="btn-agro" class="items ">Τμήμα Αγροτικής Ανάπτυξης, Αγροδιατροφής και Διαχείρισης Φυσικών Πόρων</button>
+        <button id="btn-primedu" class="items ">Παιδαγωγικό Τμήμα Δημοτικής Εκπαίδευσης</button>
+        <button id="btn-ecd" class="items ">Τμήμα Εκπαίδευσης και Αγωγής στην Προσχολική Ηλικία</button>
+        <button id="btn-med" class="items ">Ιατρική Σχολή Αθηνών</button>
+        <button id="btn-nurs" class="items ">Τμήμα Νοσηλευτικής</button>
+        <button id="btn-dent" class="items ">Οδοντιατρική Σχολή</button>
+        <button id="btn-pharm" class="items ">Τμήμα Φαρμακευτικής</button>
+        <button id="btn-phed" class="items ">Τμήμα Επιστήμης Φυσικής Αγωγής Και Αθλητισμού</button>
+        <button id="btn-theol" class="items ">Τμήμα Θεολογίας</button>
+        <button id="btn-soctheol" class="items ">Τμήμα Κοινωνικής Θεολογίας και Θρησκειολογίας</button>
+        <button id="btn-aerospace" class="items ">Τμήμα Αεροδιαστημικής Επιστήμης και Τεχνολογίας</button>
+        <button id="btn-biol" class="items ">Τμήμα Βιολογίας</button>
+        <button id="btn-geol" class="items ">Τμήμα Γεωλογίας και Γεωπεριβάλλοντος</button>
+        <button id="btn-phs" class="items ">Τμήμα Ιστορίας και Φιλοσοφίας της Επιστήμης</button>
+        <button id="btn-math" class="items ">Τμήμα Μαθηματικών</button>
+        <button id="btn-di" class="items ">Τμήμα Πληροφορικής και Τηλεπικοινωνιών</button>
+        <button id="btn-dind" class="items ">Τμήμα Τεχνολογιών Ψηφιακής Βιομηχανίας</button>
+        <button id="btn-phys" class="items ">Τμήμα Φυσικής</button>
+        <button id="btn-chem" class="items ">Τμήμα Χημείας</button>
+        <button id="btn-law" class="items ">Νομική Σχολή</button>
+        <button id="btn-pms" class="items ">Τμήμα Διαχείρισης Λιμένων και Ναυτιλίας</button>
     </div>
     <div class="navigational-buttons">
         <div class="back-button">
@@ -223,6 +223,81 @@
     }
 });
 
+
+
+
+
+
+
+
+
+
+
+
+//κουμπια μαθηματων σχολων
+document.getElementById('btn-agro').addEventListener('click', function() {
+    window.location.href = 'Tmima/agro/mathimata.html';
+});
+document.getElementById('btn-primedu').addEventListener('click', function() {
+    window.location.href = 'Tmima/primedu/mathimata.html';
+});
+document.getElementById('btn-ecd').addEventListener('click', function() {
+    window.location.href = 'Tmima/ecd/mathimata.html';
+});
+document.getElementById('btn-med').addEventListener('click', function() {
+    window.location.href = 'Tmima/med/mathimata.html';
+});
+document.getElementById('btn-nurs').addEventListener('click', function() {
+    window.location.href = 'Tmima/nurs/mathimata.html';
+});
+document.getElementById('btn-dent').addEventListener('click', function() {
+    window.location.href = 'Tmima/dent/mathimata.html';
+});
+document.getElementById('btn-pharm').addEventListener('click', function() {
+    window.location.href = 'Tmima/pharm/mathimata.html';
+});
+document.getElementById('btn-phed').addEventListener('click', function() {
+    window.location.href = 'Tmima/phed/mathimata.html';
+});
+document.getElementById('btn-theol').addEventListener('click', function() {
+    window.location.href = 'Tmima/theol/mathimata.html';
+});
+document.getElementById('btn-soctheol').addEventListener('click', function() {
+    window.location.href = 'Tmima/soctheol/mathimata.html';
+});
+document.getElementById('btn-aerospace').addEventListener('click', function() {
+    window.location.href = 'Tmima/aerospace/mathimata.html';
+});
+document.getElementById('btn-biol').addEventListener('click', function() {
+    window.location.href = 'Tmima/biol/mathimata.html';
+});
+document.getElementById('btn-geol').addEventListener('click', function() {
+    window.location.href = 'Tmima/geol/mathimata.html';
+});
+document.getElementById('btn-phs').addEventListener('click', function() {
+    window.location.href = 'Tmima/phs/mathimata.html';
+});
+document.getElementById('btn-math').addEventListener('click', function() {
+    window.location.href = 'Tmima/math/mathimata.html';
+});
+document.getElementById('btn-di').addEventListener('click', function() {
+    window.location.href = 'Tmima/di/mathimata.html';
+});
+document.getElementById('btn-dind').addEventListener('click', function() {
+    window.location.href = 'Tmima/dind/mathimata.html';
+});
+document.getElementById('btn-phys').addEventListener('click', function() {
+    window.location.href = 'Tmima/phys/mathimata.html';
+});
+document.getElementById('btn-chem').addEventListener('click', function() {
+    window.location.href = 'Tmima/chem/mathimata.html';
+});
+document.getElementById('btn-law').addEventListener('click', function() {
+    window.location.href = 'Tmima/law/mathimata.html';
+});
+document.getElementById('btn-pms').addEventListener('click', function() {
+    window.location.href = 'Tmima/math/mathimata.html';
+});
 
 
 
